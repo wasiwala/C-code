@@ -3,17 +3,16 @@
 int main(void)
 {
   int i,j;
-  i=1;
-  printf("結果:");
+  i=1;j=1;
   if(j<10)
   {
     j=i+1;
-    printf("結果:%d/n",j);
+    printf("%d/n",j);
   }
   else
   {
     printf("j=%d/n",j);
   }
   system("pause");
-  reten 0;
+  return 0;
 }
