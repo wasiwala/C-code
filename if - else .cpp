@@ -3,7 +3,9 @@
 int main(void)
 {
   int i,j;
-  i=1;j=1;
+  i=1;
+  j=getchar();
+  printf(":%d/n",j);
   if(j<10)
   {
     j=i+1;
