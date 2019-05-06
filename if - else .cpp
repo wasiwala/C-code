@@ -14,5 +14,6 @@ int main(void)
   {
     printf("j=%d/n",j);
   }
-  
+  system("pause");
+  reten 0;
 }
