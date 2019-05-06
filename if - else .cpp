@@ -8,11 +8,11 @@ int main(void)
   if(j<10)
   {
     j=i+1;
-    printf("結果:%d",j);
+    printf("結果:%d/n",j);
   }
   else
   {
-    printf("j=%d",j);
+    printf("j=%d/n",j);
   }
   
 }
